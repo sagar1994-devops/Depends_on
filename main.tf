@@ -7,5 +7,8 @@ terraform {
     bucket = "my-bucket56"
     key    = "terraform.state"
     region = "us-east-1"
+    dynamodb_table = "terraform-lock-table"
   }
 }
+
+
